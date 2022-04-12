@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!----------------------- Arquivos CSS ------------------------------>
+    <link rel="stylesheet" href="_css/style.css">
+
+</head>
+
+<body>
+
+    <div class="formulario">
+
+        <h1> Formulário de Inscrição </h1>
+        <label>Informe seu nome</label>
+        <input type="text" id="name">
+
+        <br>
+        <br>
+
+        <label>Informe seu apelido</label>
+        <input type="text" id="nickname">
+
+        <br>
+        <br>
+        
+        <label>Informe sua data de nascimento</label>
+        <input class="date" id="day" type="text" maxlength="2"> / 
+        <input class="date" id="month" type="text" maxlength="2" > / 
+        <input class="dateano" id="year" type="text" maxlength="4">
+
+        <br>
+        <br>
+
+        <label>Informe seu CPF</label>
+        <input id="cpf" type="text" maxlength="14">
+
+        <br>
+        <br>
+
+        <label>Time do coração:</label>
+        <select id="sel1" name="select">
+            <option value="Selecione uma opção" selected >Selecione uma opção</option>
+            <option value="São Paulo" >São Paulo</option>
+            <option value="Corinthians" >Corinthians</option>
+            <option value="Palmeiras">Palmeiras</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Esportes de interesse:</label> <br>
+        <input type="checkbox" name="sport" value="Futebol">Futebol<br> 
+        <input type="checkbox" name="sport" value="Volei">Volei<br> 
+        <input type="checkbox" name="sport" value="Xadres">Xadres<br> 
+        <input type="checkbox" name="sport" value="Tenis">Tenis<br> 
+        <input type="checkbox" name="sport" value="Basquete">Basquete<br> 
+
+        <br>
+        
+        <button id="bt" onclick="enquanto()">Enviar</button>
+
+
+        <p id="texto"></p>
+ 
+    </div>
+
+
+
+    <!---------------------- Arquivos Javascript ------------------------>
+    <script type="text/javascript" src="_javascript/script.js"></script>
+</body>
+
+</html>

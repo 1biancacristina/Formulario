@@ -1,0 +1,18 @@
+
+
+.formulario{
+    padding: 20px 30px 40px 50px;
+    width: 30vw;
+    height: 70vh auto;
+    background-color: linen;
+    margin:auto;
+    border-radius: 20px;
+    text-align:justify;
+}
+
+.date{
+    width: 20px;
+}
+.dateano{
+    width: 35px;
+}
